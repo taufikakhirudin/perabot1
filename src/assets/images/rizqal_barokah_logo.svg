@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@1,800;1,900&amp;family=Montserrat:wght@600;700&amp;display=swap');
+      .brand-title {
+        font-family: 'Aleo', 'NewCenturySchlbk-BoldItalic', 'Rockwell', 'Georgia', serif;
+        font-weight: 900;
+        font-style: italic;
+        font-size: 58px;
+        fill: #FFFFFF;
+        letter-spacing: 0.05em;
+      }
+      .brand-subtitle {
+        font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+        font-weight: 700;
+        font-size: 17px;
+        fill: #FFFFFF;
+        letter-spacing: 0.26em;
+      }
+    </style>
+  </defs>
+
+  <!-- Background: Solid Royal Blue matching official attachment -->
+  <rect width="800" height="600" fill="#0050EE" />
+
+  <!-- The Flowing Cursive Script "RB" Monogram -->
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Letter 'R': Entrance swash rising high, apex loop, downstem -->
+    <path d="M 235 435 C 265 345 305 200 348 95 C 362 60 380 75 375 110 C 362 180 322 320 298 405 C 288 445 280 475 275 490" stroke-width="13" />
+    
+    <!-- Letter 'R': Upper rounded bowl -->
+    <path d="M 315 265 C 325 200 358 150 408 155 C 452 160 470 198 458 248 C 445 295 405 320 352 320" stroke-width="12" />
+    
+    <!-- Letter 'R': Leg kicking downwards -->
+    <path d="M 358 315 C 375 365 398 440 415 505" stroke-width="13" />
+
+    <!-- Letter 'B': Ascender loop and descending spine -->
+    <path d="M 425 290 C 455 195 500 120 535 128 C 562 135 555 185 528 250 C 490 340 448 425 422 485" stroke-width="13" />
+    
+    <!-- Letter 'B': Upper bowl -->
+    <path d="M 495 205 C 538 200 580 232 572 288 C 564 332 525 362 470 365" stroke-width="12" />
+    
+    <!-- Letter 'B': Lower bowl with authentic horizontal flourish flick to the right -->
+    <path d="M 470 365 C 528 365 590 400 578 460 C 565 510 505 520 452 505 C 405 490 400 445 432 405 C 465 365 530 345 615 340" stroke-width="12" />
+  </g>
+
+  <!-- Wordmark: RIZQAL BAROKAH -->
+  <text x="400" y="525" text-anchor="middle" class="brand-title">RIZQAL BAROKAH</text>
+
+  <!-- Subtitle with crisp horizontal divider lines -->
+  <g>
+    <line x1="90" y1="565" x2="170" y2="565" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="square" />
+    <text x="400" y="571" text-anchor="middle" class="brand-subtitle">PERALATAN RUMAH TANGGA</text>
+    <line x1="630" y1="565" x2="710" y2="565" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="square" />
+  </g>
+</svg>
